@@ -1,3 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
-});
+    const form = document.querySelector('form')
+    const input = document.querySelector('new-task-description')
+    const list = document.querySelector('tasks')
+
+    form.addEventListener("submit", function(e){
+        e.preventDefault();
+        const inputText = input.value;
+        const taskList = document.createElement('li')
+        taskList.textContent = inputText;
+        list.appendChild(taskList);
+    })
+})
+;
+
+document.addEventListener("DOMContentLoaded", () =>{
+    document.querySelector()
+})
