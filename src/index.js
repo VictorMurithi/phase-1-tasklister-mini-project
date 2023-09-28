@@ -11,8 +11,4 @@ document.addEventListener("DOMContentLoaded", () => {
         list.appendChild(taskList);
     })
 })
-;
 
-document.addEventListener("DOMContentLoaded", () =>{
-    document.querySelector()
-})
